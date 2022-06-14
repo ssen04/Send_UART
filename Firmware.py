@@ -53,3 +53,26 @@ else:
         print(list_of_commands)
     except:
         print("Invalid!")
+
+        
+#
+# # Verify from
+# # $ to verify
+# verify_dollar = cmd_string[0]
+# partitioned_string = re.split(' |@|:', cmd_string)
+# print(partitioned_string)
+# # Get mode
+# get_mode = partitioned_string[0][1:]
+# print(get_mode)
+#
+# get_ramp_rate = partitioned_string[1]
+# get_dwell_time = partitioned_string[2]
+# get_load = partitioned_string[3]
+# get_displacement = partitioned_string[4]
+# get_spring_constant = partitioned_string[5]
+#
+# # Verify
+# if(get_mode[0] != "$" or cmd_string == ""):
+#     pass
+# else:
+#     print("Validate here")
